@@ -1,0 +1,75 @@
+/* General */
+
+html, body {
+    min-width: 1000px;
+}
+
+#root {
+    height: 100vh;
+    min-width: 1000px;
+}
+
+#body-replacement {
+    min-width: 1000px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+/* Range input */
+
+input[type="range"]::-moz-range-thumb {
+    background-color: #455A64;
+}
+
+input[type="range"] + .thumb  {
+    background-color: #455A64;
+}
+
+/* Modal */
+
+.modal-overlay {
+    background-color: #818181;
+}
+
+/* Draw CAPTCHA */
+
+#draw-modal-sketches {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#draw-modal-picture, #draw-modal-canvas {
+    margin: 1em;
+}
+
+@media (max-width: 1000px) {
+
+    #draw-modal-sketches {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+/* Picture CAPTCHA */
+
+#picture-modal-gallery {
+    display: block;
+    min-height: 1px;
+    width: 100%;
+    overflow: auto;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 1em;
+}
