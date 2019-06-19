@@ -1,13 +1,6 @@
 ### TODO
 
-- Content-wise
-    - fill in introduction text
-    - fill in debriefing text
-    - questions for self-assessment
-    - select pictures from OASIS image set
-
-- Coding-wise
-    - Logging to Google Sheet (use service account, decide when to log in app, use central state management for react)
+- Make CORS request to API work
 
 
 ### Start app
