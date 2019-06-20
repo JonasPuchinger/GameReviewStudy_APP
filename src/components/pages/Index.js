@@ -5,6 +5,7 @@ class Index extends React.Component {
 
     onStartClick = () => {
         // navigate to /review with react-router api
+        this.props.history.push("/review");
     }
 
     render() {

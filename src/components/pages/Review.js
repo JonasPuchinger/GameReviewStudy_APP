@@ -46,6 +46,7 @@ class Review extends React.Component {
                 game_name: this.props.store.get("pGameName"),
                 review_text: this.props.store.get("pReviewText")
             });
+            this.props.history.push("/self-assessment");
         }
     }
 

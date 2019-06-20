@@ -1,3 +1,4 @@
+import M from 'materialize-css';
 import React from 'react';
 import SheetsConnector from './../../helpers/SheetsConnector';
 import { withStore } from '@spyna/react-store';
@@ -13,6 +14,7 @@ class Debriefing extends React.Component {
             this.sheetsConnector.insertEmailRow({
                 email: pEmail
             });
+            M.toast({html: "Email submitted!"});
         }
     }
     
@@ -31,7 +33,7 @@ class Debriefing extends React.Component {
                         <div className="row">
                             <div className="input-field col s12">
                                 <input id="input-email" type="email" className="validate" />
-                                <label for="input-email">Email</label>
+                                <label htmlFor="input-email">Email</label>
                             </div>
                         </div>
                         <button className="btn blue-grey darken-2" onClick={this.onSubmitClick}>Submit</button>
