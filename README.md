@@ -1,8 +1,3 @@
-### TODO
-
-- Make CORS request to API work
-
-
 ### Start app
 
 In the project directory, you can run:
