@@ -29,9 +29,16 @@ class Debriefing extends React.Component {
                         Your part is now done and you can close the browser window or tab.
                     </p>
                     <div className="row">
-                        <p>If you want to get notified about the results of our study, please enter your email address below:</p>
+                        <p>
+                        If you are a student of Media Informatics at the University of Regensburg, and want to earn 0,5 VP for taking part in this study, 
+                        please enter your student email address below and send an email with the subject "UR Game Review Study VP" to one of the following addresses.
+                        </p>
+                        <a href="mailto:jonas.puchinger@stud.uni-regensburg.de">Jonas Puchinger</a>
+                        <br />
+                        <a href="mailto:kevin.angermeyer@stud.uni-regensburg.de">Kevin Angermeyer</a>
+                        <br />
                         <div className="row">
-                            <div className="input-field col s12">
+                            <div className="input-field col s6 offset-s3">
                                 <input id="input-email" type="email" className="validate" />
                                 <label htmlFor="input-email">Email</label>
                             </div>

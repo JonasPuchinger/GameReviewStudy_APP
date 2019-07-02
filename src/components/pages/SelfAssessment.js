@@ -224,7 +224,7 @@ class SelfAssessment extends React.Component {
                         </div>
                         <div className="row">
                             <h5>How much do you agree with the following statement:</h5>
-                            <h5>The tone of my review was friendly. (1 = Do not agree at all. 7 = Fully agree.)</h5>
+                            <h5>The tone of my review is friendly. (1 = Do not agree at all. 7 = Fully agree.)</h5>
                             <span className="helper-text">Friendly refers only to the tone and language of your review, not to the points you made in it.</span>
                             <p className="range-field">
                                 <input type="range" id="input-review-tone" min="1" max="7" />
@@ -232,21 +232,21 @@ class SelfAssessment extends React.Component {
                         </div>
                         <div className="row">
                             <h5>How much do you agree with the following statement:</h5>
-                            <h5>My review was analytical. (1 = Do not agree at all. 7 = Fully agree.)</h5>
+                            <h5>My review is analytical. (1 = Do not agree at all. 7 = Fully agree.)</h5>
                             <p className="range-field">
                                 <input type="range" id="input-review-analytical" min="1" max="7" />
                             </p>
                         </div>
                         <div className="row">
                             <h5>How much do you agree with the following statement:</h5>
-                            <h5>My review was takes into account what other players might think about the game. (1 = Do not agree at all. 7 = Fully agree.)</h5>
+                            <h5>My review takes into account what other players might think about the game. (1 = Do not agree at all. 7 = Fully agree.)</h5>
                             <p className="range-field">
                                 <input type="range" id="input-review-social" min="1" max="7" />
                             </p>
                         </div>
                         <div className="row">
                             <h5>How much do you agree with the following statement:</h5>
-                            <h5>My review was authentic and honest. (1 = Do not agree at all. 7 = Fully agree.)</h5>
+                            <h5>My review is authentic and honest. (1 = Do not agree at all. 7 = Fully agree.)</h5>
                             <p className="range-field">
                                 <input type="range" id="input-review-authenticity" min="1" max="7" />
                             </p>
