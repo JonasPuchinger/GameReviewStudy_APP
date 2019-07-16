@@ -11,7 +11,7 @@ class SelfAssessment extends React.Component {
         let datepicker = document.querySelector(".datepicker");
         M.Datepicker.init(datepicker, {
             format: "dd.mm.yyyy",
-            defaultDate: new Date("01.01.2000"),
+            defaultDate: new Date(2000, 1, 1),
             yearRange: 20
         });
         let rangeInputs = document.querySelectorAll("input[type=range]");
