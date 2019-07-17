@@ -45,6 +45,12 @@ class Debriefing extends React.Component {
                         </div>
                         <button className="btn blue-grey darken-2" onClick={this.onSubmitClick}>Submit</button>
                     </div>
+                    <div className="row">
+                        <p>
+                        If you are an Amazon Mechanical Turk Worker, here is your code:
+                        </p>
+                        <h4>617438952</h4>
+                    </div>
                 </div>       
             </main>
         )
