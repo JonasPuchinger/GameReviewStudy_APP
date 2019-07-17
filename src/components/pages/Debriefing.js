@@ -49,7 +49,7 @@ class Debriefing extends React.Component {
                         <p>
                         If you are an Amazon Mechanical Turk Worker, here is your code:
                         </p>
-                        <h4>617438952</h4>
+                        <h4>{this.props.store.get("pKey")}</h4>
                     </div>
                 </div>       
             </main>
