@@ -10,8 +10,12 @@ class Review extends React.Component {
     sheetsConnector = new SheetsConnector();
 
     componentWillMount() {
-        let pCaptchaType = Math.floor(Math.random() * Math.floor(3));
-        this.props.store.set("pCaptchaType", pCaptchaType);
+        this.sheetsConnector.getNextCaptcha(this.setCaptchaType);
+    }
+
+    setCaptchaType = (data) => {
+        console.log(data);
+        this.props.store.set("pCaptchaType", data);
         console.log(this.props.store.getState());
     }
 
