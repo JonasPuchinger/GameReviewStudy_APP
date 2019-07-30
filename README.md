@@ -1,14 +1,25 @@
-### Start app
+# GameReviewStudy API
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+This project is the frontend of an online study on video game reviews conducted for the course "Advanced Usability Engineering", which is part of the masters program in media informatics at the [University of Regensburg](https://www.uni-regensburg.de/)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The aim of the study is to show how different CAPTCHAs are able to influence users to write reviews with friendlier tone and higher quality.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+This part of the project serves as the frontend, enabling users/participants to input study data.
+
+The corresponding backend can be found [here](https://github.com/JonasPuchinger/GameReviewStudy_API).
+
+## Installation
+
+1. Clone or download the repository.
+2. run `npm install` in the project directory.
+3. run `npm start` in the project directory.
+4. Point your browser at [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+You can use this as a template for your own project.
 
 ### Sitemap
 
