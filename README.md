@@ -1,4 +1,4 @@
-# GameReviewStudy API
+# GameReviewStudy APP
 
 ## Introduction
 
